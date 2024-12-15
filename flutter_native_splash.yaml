@@ -1,0 +1,9 @@
+flutter_native_splash:
+  color: "#000000"  # Set splash screen background to black
+  android: true      # Enable splash screen for Android
+  ios: true          # Enable splash screen for iOS
+  web: true          # Enable splash screen for Web (optional)
+
+  # Android 12-specific configuration
+  android_12:
+    color: "#000000"  # Black splash for Android 12 devices
